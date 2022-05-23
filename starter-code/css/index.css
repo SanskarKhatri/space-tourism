@@ -1,0 +1,44 @@
+/* font references
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif; */
+
+
+
+body {
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.container-fluid {
+    padding: 1% 0 1% 1.5%;
+}
+
+
+/* navbar */
+.nav-line {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+.nav-link  {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: #fff;
+    
+}
+.nav-item {
+    padding: 20px;
+    width: max-content;
+    margin: 0 10px;
+}
+.navbar-nav {
+    padding: 0 100px;
+    margin: 0 0 0 auto;
+    background-color: rgba(255, 255, 255, 0.04);
+}
+.nav-item {
+
+}
