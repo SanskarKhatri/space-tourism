@@ -2,7 +2,43 @@
 font-family: 'Barlow Condensed', sans-serif;
 font-family: 'Bellefair', serif; */
 
-
+h1, h2, h3, h4{
+    font-family: 'Bellefair', serif;
+}
+h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 56px;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+}
+/* h6=subheading1 */
+h6 {
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+    font-size: 28px;
+}   
+.subheading2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+}
 
 body {
     background-image: url("../assets/home/background-home-desktop.jpg");
@@ -11,12 +47,15 @@ body {
     color: #fff;
 }
 .container-fluid {
-    padding: 1% 0 1% 1.5%;
+    padding: 1.5% 0 1.5% 2%;
 }
 
 
 /* navbar */
-.nav-line {
+.navbar-brand{
+    margin: 0 4% 0 1%;
+}
+.nav-line { 
     height: 2px;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -25,20 +64,35 @@ body {
 .nav-link  {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 16px;
+    font-weight: 500;
     letter-spacing: 2.7px;
     color: #fff;
+    padding: 20px 0;
+    width: max-content;
+    margin: 0 30px;
     
 }
-.nav-item {
-    padding: 20px;
-    width: max-content;
-    margin: 0 10px;
+.nav-link:hover {
+    color: #fff;
+    padding: 20px 0 18px 0;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #fff;
+}
+.nav-link[aria-current="page"] {
+    padding: 20px 0 16px 0;
+    border-width: 0 0 4px 0;
+    border-style: solid;
+    border-color: #fff;
 }
 .navbar-nav {
-    padding: 0 100px;
+    padding: 0 120px;
     margin: 0 0 0 auto;
-    background-color: rgba(255, 255, 255, 0.04);
+    background-color: #86868d28;
 }
-.nav-item {
 
+
+/* content */
+.home-content {
+    padding: 10%;
 }
