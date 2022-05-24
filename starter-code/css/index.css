@@ -47,11 +47,14 @@ body {
     color: #fff;
 }
 .container-fluid {
-    padding: 1.5% 0 1.5% 2%;
+    padding: 1.5% 2%;
 }
 
 
 /* navbar */
+#navbar .container-fluid {
+    padding: 1.5% 0 1.5% 2%;
+}
 .navbar-brand{
     margin: 0 4% 0 1%;
 }
@@ -67,20 +70,20 @@ body {
     font-weight: 500;
     letter-spacing: 2.7px;
     color: #fff;
-    padding: 20px 0;
+    padding: 30px 0;
     width: max-content;
     margin: 0 30px;
     
 }
 .nav-link:hover {
     color: #fff;
-    padding: 20px 0 18px 0;
+    padding: 30px 0 28px 0;
     border-width: 0 0 2px 0;
     border-style: solid;
     border-color: #fff;
 }
 .nav-link[aria-current="page"] {
-    padding: 20px 0 16px 0;
+    padding: 30px 0 26px 0;
     border-width: 0 0 4px 0;
     border-style: solid;
     border-color: #fff;
@@ -95,4 +98,24 @@ body {
 /* content */
 .home-content {
     padding: 10%;
+}
+.explore-button {
+    color: black;
+    background-color: #fff;
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    padding-top: 119px;
+    padding-bottom: 119px;
+    border-radius:135px;
+}
+.explore-bg {
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    padding: 40px;
+    margin-left: auto;
+}
+.explore-bg:hover{
+    background-color: rgba(255, 255, 255, 0.233);
 }
