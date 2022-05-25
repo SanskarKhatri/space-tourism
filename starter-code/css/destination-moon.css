@@ -41,7 +41,7 @@ h6 {
 }
 
 body {
-  background-image: url("../assets/home/background-home-desktop.jpg");
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -95,27 +95,7 @@ body {
   background-color: #86868d28;
 }
 
-/* content */
-.home-content {
-  padding: 10% 9%;
-}
-.explore-button {
-  color: black;
-  background-color: #fff;
-  width: 270px;
-  height: 270px;
-  text-align: center;
-  padding-top: 119px;
-  padding-bottom: 119px;
-  border-radius: 135px;
-}
-.explore-bg {
-  width: 350px;
-  height: 350px;
-  border-radius: 175px;
-  padding: 40px;
-  margin-left: auto;
-}
-.explore-bg:hover {
-  background-color: rgba(255, 255, 255, 0.233);
+
+.num {
+    color: rgb(65, 65, 65);
 }
