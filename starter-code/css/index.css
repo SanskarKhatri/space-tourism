@@ -61,7 +61,7 @@ body {
 .navbar-brand {
   margin: 0 4% 0 1%;
 }
-.nav-line {
+.line {
   height: 2px;
   width: 100%;
   background-color: rgb(255, 255, 255);
