@@ -43,7 +43,7 @@ h6 {
 body {
   background-image: url("../assets/home/background-home-desktop.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
   color: #fff;
 }
@@ -74,7 +74,7 @@ body {
   color: #fff;
   padding: 30px 0;
   width: max-content;
-  margin: 0 30px;
+  margin: 0 20px;
 }
 .nav-link:hover {
   color: #fff;
@@ -90,7 +90,7 @@ body {
   border-color: #fff;
 }
 .navbar-nav {
-  padding: 0 120px;
+  padding: 0 8%;
   margin: 0 0 0 auto;
   background-color: #86868d28;
 }
@@ -114,8 +114,38 @@ body {
   height: 350px;
   border-radius: 175px;
   padding: 40px;
-  margin-left: auto;
 }
 .explore-bg:hover {
   background-color: rgba(255, 255, 255, 0.233);
+}
+.home-explore {
+  display: flex;
+  justify-content: end;
+}
+
+@media screen and (max-width: 990px) {
+  body {
+    background-image: url("../assets/home/background-home-tablet.jpg");
+  }
+  .home-content {
+    text-align: center;
+  }
+  .home-explore {
+    justify-content: center;
+  }
+  #navbar .container-fluid {
+    padding-top: 0;
+  }
+  .navbar {
+    padding-top: 0%;
+  }
+  .line {
+    display: none;
+  }
+  .navbar-nav {
+    padding: 0 3%;
+  }
+  .nav-link {
+    margin: 0 10px;
+  }
 }
