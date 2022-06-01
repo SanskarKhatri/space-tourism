@@ -41,7 +41,7 @@ h6 {
 }
 
 body {
-  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  background-image: url("../assets/crew/background-crew-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -96,53 +96,52 @@ body {
   background-color: #86868d28;
 }
 
+#crew {
+  padding-bottom: 0%;
+}
 /* content */
-.content-heading {
-  padding: 1% 9%;
+.page-heading {
+  margin: 0 0 15%;
 }
 .content {
-  padding: 1% 9%;
+  padding: 1% 7.5%;
 }
 .image-col {
-  padding: 5%;
+  padding: 0 5%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .content img {
-  width: 60%;
+  width: 90%;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 .num {
   color: rgb(65, 65, 65);
 }
 
-/* destination nav */
-.destination-nav {
+/* crew nav */
+.crew-nav {
   display: flex;
-  margin: 30px 0;
+  margin: 20% 0 30px 0;
 }
-.destination-nav .nav-link {
-  color: #d0d6f9;
+.crew-nav .nav-link {
   float: left;
-  padding: 10px 0;
-  width: max-content;
   margin: 0 30px 0 0;
+  width: 15px;
+  padding: 7.5px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: 0;
+  border-radius: 7.5px;
 }
-.destination-nav .nav-link:hover {
-  color: #fff;
-  padding: 10px 0 8px 0;
-  border-width: 0 0 2px 0;
-  border-style: solid;
-  border-color: #fff;
+.crew-nav .nav-link:hover {
+  background-color: #ffffff9a;
 }
-.destination-nav .nav-link[aria-current="page"] {
-  color: #fff;
-  padding: 10px 0 6px 0;
-  border-width: 0 0 4px 0;
-  border-style: solid;
-  border-color: #fff;
+.crew-nav .nav-link[aria-current="page"] {
+  background-color: #fff;
 }
-.destination-nav .navbar-nav {
+.crew-nav .navbar-nav {
   padding: 0;
   margin: 0;
   background: 0;
@@ -178,7 +177,7 @@ body {
   .content img {
     width: 40%;
   }
-  .destination-nav {
+  .crew-nav {
     justify-content: center;
   }
 }
