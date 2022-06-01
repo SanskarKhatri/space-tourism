@@ -41,7 +41,7 @@ h6 {
 }
 
 body {
-  background-image: url("../assets/crew/background-crew-desktop.jpg");
+  background-image: url("../assets/technology/background-technology-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -92,91 +92,43 @@ body {
   background-color: #86868d28;
 }
 
-#crew {
-  padding-bottom: 0%;
-}
 /* content */
 .content-heading {
-  padding: 1% 9%;
-}
-/* .page-heading {
-  margin: 0 0 15%;
-} */
-.content {
-  padding: 5% 9%;
-}
-.image-col {
-  padding: 0 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.content img {
-  width: 90%;
-  margin-top: auto;
-  margin-bottom: 0;
-}
-.num {
-  color: rgb(65, 65, 65);
-}
-
-/* crew nav */
-.crew-nav {
-  display: flex;
-  margin: 20% 0 30px 0;
-}
-.crew-nav .nav-link {
-  float: left;
-  margin: 0 30px 0 0;
-  width: 15px;
-  padding: 7.5px;
-  background-color: rgba(255, 255, 255, 0.24);
-  border: 0;
-  border-radius: 7.5px;
-}
-.crew-nav .nav-link:hover {
-  background-color: #ffffff9a;
-}
-.crew-nav .nav-link[aria-current="page"] {
-  background-color: #fff;
-}
-.crew-nav .navbar-nav {
-  padding: 0;
-  margin: 0;
-  background: 0;
-}
-.content .line {
-  margin: 40px 0;
-}
-@media screen and (max-width: 990px) {
-  body {
-    background-image: url("../assets/destination/background-destination-tablet.jpg");
+    padding: 1% 9%;
   }
+  /* .page-heading {
+    margin: 0 0 15%;
+  } */
   .content {
-    text-align: center;
+    padding: 5% 9%;
   }
-  .home-explore {
+  .image-col {
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
     justify-content: center;
-  }
-  #navbar .container-fluid {
-    padding-top: 0;
-  }
-  .navbar {
-    padding-top: 0%;
-  }
-  #navbar .line {
-    display: none;
-  }
-  .navbar-nav {
-    padding: 0 3%;
-  }
-  .nav-link {
-    margin: 0 10px;
   }
   .content img {
-    width: 40%;
+    width: 90%;
+    margin-top: auto;
+    margin-bottom: 0;
   }
-  .crew-nav {
-    justify-content: center;
+  .num {
+    color: rgb(65, 65, 65);
   }
-}
+  
+
+  /* technology nav */
+  .technology-nav {
+    display: flex;
+    margin: 5% 0;
+  }
+  .technology-nav .nav-link {
+    float: left;
+    margin: 10px 30px 10px 0;
+    width: px;
+    padding: 7.5px;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: 0;
+    border-radius: 7.5px;
+  }
